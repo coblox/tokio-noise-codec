@@ -1,0 +1,19 @@
+[package]
+authors = [
+    "Lloyd Fournier <lloyd@coblox.tech>",
+    "Franck Royer <franck@coblox.tech>",
+    "Thomas Eizinger <thomas@coblox.tech>",
+    "Philipp Hoenisch <philipp@coblox.tech>",
+]
+name = "tokio_noise_codec"
+version = "0.1.0"
+[dependencies]
+byteorder = "1.2.4"
+bytes = "0.4.9"
+snow = "0.3.1"
+tokio-codec = "0.1.0"
+log = "0.4.3"
+
+[dev-dependencies]
+env_logger = "0.5.12"
+spectral = "0.6.0"
