@@ -2,8 +2,8 @@ extern crate bytes;
 extern crate env_logger;
 extern crate snow;
 extern crate spectral;
-extern crate tokio_noise_codec;
 extern crate tokio_codec;
+extern crate tokio_noise_codec;
 
 use spectral::prelude::*;
 
